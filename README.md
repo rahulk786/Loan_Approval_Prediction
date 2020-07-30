@@ -1,28 +1,3 @@
 # Loan_Approval_Prediction
 A ML Project to predict the Approval status of a loan based on given features of the customers.
 
-Applications Data of Consumer Personal Loans : Prediction of Approval of Consumer
-Personal Loans Applications using different Machine Learning Algorithms.
-
-a. Understanding of Test and Train Data.
-
-b. Implementation of steps like Feature Engineering, Feature Selection, EDA, Model
-Training etc.
-
-c. Usage the libraries like numpy, pandas, matplotlib and seaborn etc.
-
-d. Usage of different models to train the data like below.
-
-i. Logistic Regression.
-
-ii. Support Vector Classifier.
-
-iii. K-nearest Neighbor.
-
-iv. Decision Tree.
-
-v. Random Forest.
-
-e. Compare the accuracy from different models.
-
-f. Final code along with project report.

@@ -12,13 +12,9 @@ c. Usage the libraries like numpy, pandas, matplotlib and seaborn etc.
 d. Usage of different models to train the data like below.
 
 i. Logistic Regression.
-
 ii. Support Vector Classifier.
-
 iii. K-nearest Neighbor.
-
 iv. Decision Tree.
-
 v. Random Forest.
 
 e. Compare the accuracy from different models.

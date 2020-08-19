@@ -1,4 +1,5 @@
 Problem Statement :
+
 Applications Data of Consumer Personal Loans : Prediction of Approval of Consumer Personal Loans Applications using different Machine Learning Algorithms.
 a. Understanding of Test and Train Data.
 
@@ -8,7 +9,6 @@ Training etc.
 c. Usage the libraries like numpy, pandas, matplotlib and seaborn etc.
 
 d. Usage of different models to train the data like below.
-
 i. Logistic Regression.
 ii. Support Vector Classifier.
 iii. K-nearest Neighbor.

@@ -14,7 +14,6 @@ import pandas as pd
 
 #Importing the dataset
 df = pd.read_csv('Proj 4-Train Data.csv')
-df_1=pd.read_csv('Proj 4-TestData.csv')
 
 #Data Preprocessing
 #Removing unwanted columns
@@ -32,10 +31,6 @@ from sklearn .impute import SimpleImputer
 imputer1 = SimpleImputer(missing_values=np.nan,strategy="median")
 imputer1.fit(df.iloc[:,7:9])
 df.iloc[:,7:9]=imputer1.transform(df.iloc[:,7:9])
-
-#Handling categorical missing data
-df['Sex'].value_counts()
-df['Marital_Status'].value_counts()
 
 imputer2 = SimpleImputer(missing_values=np.nan,strategy="most_frequent")
 imputer2.fit(df.iloc[:,0:5])

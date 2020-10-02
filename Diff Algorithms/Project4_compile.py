@@ -114,35 +114,6 @@ X_test[:,[3,4,5]] = sc_X.transform(X_test[:,[3,4,5]])
 X_act[:,[3,4,5]]=sc_X.transform(X_act[:,[3,4,5]])
 
 
-
-
-# Fitting Decision Tree Classification to the Training set
-from sklearn.tree import DecisionTreeClassifier
-classifierDT = DecisionTreeClassifier(criterion = 'entropy', max_depth=40,min_samples_split=40,random_state = 0)
-classifierDT.fit(X_train, y_train)
-
-# Predicting the Test set results
-y_predDT = classifierDT.predict(X_test)
-
-# Making the Confusion Matrix
-from sklearn.metrics import confusion_matrix 
-from sklearn.metrics import accuracy_score 
-from sklearn.metrics import classification_report
-
-cm = confusion_matrix(y_test, y_predDT)
-print("Confusion matrix")
-print(cm)
-print('Accuracy Score :',accuracy_score(y_test,y_predDT))
-print('Report :')
-print(classification_report(y_test, y_predDT))
-
-#Prediction of the actual testset:
-y_actDT = classifierDT.predict(X_act)
-df_1["DT_OUT"]=y_actDT
-
-
-
-
 # Fitting Random Forest Classification to the Training set
 from sklearn.ensemble import RandomForestClassifier
 classifierRF = RandomForestClassifier(n_estimators = 100,max_depth=30,min_samples_split=20, criterion = 'entropy', random_state = 0)

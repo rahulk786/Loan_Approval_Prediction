@@ -1,5 +1,5 @@
-python==3.7.0
-scikit-learn==0.21.1
-numpy==1.16.4
-pandas==1.0.3
-streamlit==0.82.0
+python>=3.7.0
+scikit-learn>=0.21.1
+numpy>=1.16.4
+pandas>=1.0.3
+streamlit>=0.82.0
